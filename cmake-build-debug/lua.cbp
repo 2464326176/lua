@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/lyh/opengrok/source/lua/cplus/main.cpp">
+		<Unit filename="D:/lyh/opengrok/source/lua/json/main.cpp">
 			<Option target="lua"/>
 		</Unit>
 		<Unit filename="D:/lyh/opengrok/source/lua/CMakeLists.txt">

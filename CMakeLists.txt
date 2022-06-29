@@ -10,6 +10,6 @@ link_directories(
 )
 
 add_executable(lua
-        cplus/main.cpp)
+        json/main.cpp)
 
-target_link_libraries(lua lua54)
+#target_link_libraries(lua lua54)
