@@ -3,13 +3,9 @@ project(lua)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(lua-5.4.4/src)
+include_directories(sourcePackage/json-c sourcePackage/json-c/mingw-build)
+link_directories(sourcePackage/json-c/mingw-build)
 
-link_directories(
-        ${CMAKE_CURRENT_SOURCE_DIR}/lua-5.4.4/src
-)
+add_executable(lua sourcePackage/json-c/tests/test_float.c)
 
-add_executable(lua
-        json/main.cpp)
-
-#target_link_libraries(lua lua54)
+target_link_libraries(lua lua54)

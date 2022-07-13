@@ -1,5 +1,5 @@
 // Test.cpp : Implementation of CTest
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "TestSafeArray.h"
 #include "Test.h"
 #include <stdio.h>

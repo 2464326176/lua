@@ -22,7 +22,7 @@
 //      To build a separate proxy/stub DLL, 
 //      run nmake -f TestSafeArrayps.mk in the project directory.
 
-#include "stdafx.h"
+#include "StdAfx.h"
 #include "resource.h"
 #include <initguid.h>
 #include "TestSafeArray.h"
